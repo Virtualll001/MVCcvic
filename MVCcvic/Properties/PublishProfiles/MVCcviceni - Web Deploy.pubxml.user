@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7JnCtdHj4EK+tASasGj8kQAAAAACAAAAAAAQZgAAAAEAACAAAAAU+DevfPLzxnDypRS5Avx533z1WlVSmrLFEJH//EVcSgAAAAAOgAAAAAIAACAAAABVvc1G+06HoESeMcynUB2GoItEUk9UXp5zDnvdiGJrFoAAAAAcP3FPOqQby/vDkobsF793Z08h6ZM8StYFOB3tztlZf9IIu2f0sxi4WUKkBB1AyI/d1lU9gRinUKGqnrdZDlSeWLI1gxsoYnw2xWnkWq5oYkrjexTQr/zCgKGT5RZtg+/TnnHATwu8agMk1yCFDW7SitoVVee0cCPwADPtGPL6QUAAAABhmRNFR5lvbo9MFpZkRLijwd/fF+RI85G7R3MjrzkmHTGn1G43uuXem2k5hduwJ8ivUvONK+eLto/3K30w2WLo</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:mvccvicdbserver.database.windows.net,1433%3bInitial Catalog=MVCcvic_db%3bUser Id=KACA%40mvccvicdbserver%3bPassword=Karkulk%401</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MVCcvic.Models.ApplicationDbContext">
+      <Value>Data Source=tcp:mvccvicdbserver.database.windows.net,1433%3bInitial Catalog=MVCcvic_db%3bUser Id=KACA%40mvccvicdbserver%3bPassword=Karkulk%401</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
